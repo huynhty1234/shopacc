@@ -1,5 +1,3 @@
-providers = ["heroku/php", "heroku/nodejs"]
-
 [phases.setup]
 nixPkgs = ["php80", "php80Packages.composer", "nodejs_18", "npm"]
 
